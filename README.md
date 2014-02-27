@@ -24,5 +24,5 @@ $
 
 ## Requires
 
-* pip install pynacl
-* brew install libsodium
+* pip install [pynacl](https://github.com/pyca/pynacl)
+* brew install [libsodium](https://github.com/jedisct1/libsodium)
