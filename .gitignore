@@ -1,0 +1,5 @@
+*.o
+*.pub
+*.secret
+.DS_Store
+jp-decrypt
