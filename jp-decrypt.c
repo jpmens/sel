@@ -85,7 +85,7 @@ int loadkey(char *path, UCHAR *target, unsigned long tlen)
     memset(target, 0, tlen);
     if ((fd = open(path, O_RDONLY)) == -1) {
         perror(path);
-        return (-1);
+        exit (-1);
     }
 
     n = read(fd, buf, BLEN);
